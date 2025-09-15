@@ -1,0 +1,33 @@
+name: flutter_video_editor
+description: Simple cross-platform (Android/iOS) video trimmer with split/delete timeline, skip-preview, and MP4 export.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  file_picker: ^10.3.2
+  path_provider: ^2.1.5
+  video_player: ^2.9.2
+  
+  video_thumbnail:
+    git:
+      url: https://github.com/justsoft/video_thumbnail.git
+      ref: master
+   
+ 
+  path: ^1.9.0
+  collection: ^1.18.0
+  ffmpeg_kit_flutter_new: ^3.2.0
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
